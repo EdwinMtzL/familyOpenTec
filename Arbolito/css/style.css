@@ -1,0 +1,156 @@
+:root {
+    --spheres-size: 20px;
+    --spheres-half-size: 10px;
+    --brown: #462a14;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    min-width: 6rem !important;
+    max-width: 6rem;
+    ;
+    height: 2rem;
+    background-color: #2c5545 !important;
+}
+
+.card {
+    border-radius: inherit !important;
+}
+
+.card:hover {
+    border: 1px solid #2c5545;
+    background-color: rgba(44, 85, 69, .5) !important;
+}
+
+.start {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+i.far.fa-star {
+    font-size: 3rem;
+    color: #ede442;
+    text-shadow: 0px 1px 10px #ede442;
+}
+
+.effect-hover {
+    display: none;
+}
+
+.name-1 {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+.name-2 {
+    border-radius: 0.5rem 0 0 0 !important;
+}
+
+.name-3 {
+    border-radius: 0 0.5rem 0 0 !important;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.card.name-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fas.fa-circle.one {
+    /* margin-left: 2rem; */
+    position: absolute;
+    font-size: var(--spheres-size);
+    top: calc(-1 * var(--spheres-half-size));
+    left: calc(-1 * var(--spheres-half-size));
+}
+
+.fas.fa-circle.two {
+    /* margin-right: 2rem; */
+    position: absolute;
+    font-size: var(--spheres-size);
+    top: calc(-1 * var(--spheres-half-size));
+    right: calc(-1 * var(--spheres-half-size));
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.tronco {
+    width: 10%;
+    min-height: 100px;
+    position: relative;
+    background: #462a14;
+    margin: 0 auto;
+}
+
+.card button {
+    height: 100%;
+    width: 100%;
+}
+
+.fas.fa-gift,
+.fas.fa-gifts {
+    position: absolute;
+}
+
+.gift1 {
+    font-size: 60px;
+    color: #b51c16;
+    bottom: 34px;
+    left: -79px;
+}
+
+.gift2 {
+    font-size: 60px;
+    color: #253a49;
+    bottom: 34px;
+    left: 139px;
+}
+
+.gift3 {
+    font-size: 50px;
+    color: #832b3e;
+    bottom: -50px;
+    left: -150px;
+}
+
+.gift4 {
+    font-size: 50px;
+    color: #bed2dd;
+    bottom: -18px;
+    left: -58px;
+}
+
+.gift5 {
+    font-size: 50px;
+    color: #ec5d59;
+    bottom: -20px;
+    left: 140px;
+}
+
+.image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../images/image.jpg);
+    background-size: cover;
+    background-position: right;
+}
